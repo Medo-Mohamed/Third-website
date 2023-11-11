@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- [if it IE 9]
+    <script src="script/html5shiv.min.js"></script> 
+    [endif] -->
+    <title>Document</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg fs-5 w-100">
+    <div class="container-fluid">
+      <a class="navbar-brand nav-logo" href="#"><img src="images/1.1.png" alt="" draggable="false"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon d-flex justify-content-center align-items-center fs-2"><i class="fa-solid fa-bars"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-uppercase fw-bolder nav-name position-relative webside-name" aria-current="page" href="#">pharmacy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link dropdown-color" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link dropdown-color" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link dropdown-color" href="#">Health tips</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle dropdown-color" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Offers
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item dropdown-color" href="#">Up to 30% discount</a></li>
+              <li><a class="dropdown-item dropdown-color" href="#">Up to 50% discount</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item dropdown-color" href="#">Genral offers</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled text-wrap text-capitalize text-wrap" href="#">call us +201234567890</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success nav-button" type="submit">Search</button>
+          <button class="btn btn-outline-success text-nowrap nav-button mx-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Log In</button>
+        </form>
+      </div>
+    </div>
+<!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header text-center"> <!-- /modal-header -->
+            <h4 class="modal-title fs-3 fw-bold" id="exampleModalLabel">LOG IN</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body"> <!-- /modal-body -->
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="d-flex flex-wrap">
+                <div class="form-check form-switch me-5">
+                  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                  <label class="form-check-label" for="flexSwitchCheckDefault">Remmember me</label>
+                </div>
+
+                <div class="form-check form-switch ">
+                  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                  <label class="form-check-label" for="flexSwitchCheckDefault">Log Auto</label>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer justify-content-between"> <!-- /modal-footer -->
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Log in</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <aside class="d-flex flex-column justify-content-evenly align-items-center">
+    <i class="fa-brands fa-facebook blue"></i>
+    <i class="fa-brands fa-twitter syan"></i>
+    <i class="fa-brands fa-whatsapp green"></i>
+    <i class="fa-brands fa-linkedin-in bluee"></i>
+    <i class="fa-brands fa-instagram red"></i>
+  </aside>
+  <div id="carouselExampleIndicators" class="carousel slide main" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner position-relative text-white">
+      <div class="carousel-item active">
+        <img src="images/2.jpeg" class="d-block w-100" alt="...">
+        <div class="zablawy text-center ">
+          <h2 class="mt-1 fs-1">Homepage</h2>
+          <p class="mt-1 fs-4">This is the only page verified by us</p>
+          <button class="btn btn-outline-success nav-button mb-4" type="submit">MORE</button>
+        </div> <!-- /zablawy -->
+      </div>
+      <div class="carousel-item">
+        <img src="images/3.jpeg" class="d-block w-100" alt="...">
+        <div class="zablawy text-center">
+          <h2 class="mt-1 fs-1">Our products</h2>
+          <p class="mt-1 fs-4">We have the most new medicines that you might like</p>
+          <button class="btn btn-outline-success nav-button mb-4" type="submit">Search</button>
+        </div> <!-- /zablawy -->
+      </div>
+      <div class="carousel-item">
+        <img src="images/4.jpeg" class="d-block w-100" alt="...">
+        <div class="zablawy text-center">
+          <h2 class="mt-1 fs-1">Pharmacy services</h2>
+          <p class="mt-1 fs-4">We have home delivery service</p>
+          <button class="btn btn-outline-success nav-button mb-4" type="submit">Search</button>
+        </div> <!-- /zablawy -->
+      </div>
+      <div class="carousel-item">
+        <img src="images/6.jpeg" class="d-block w-100" alt="...">
+        <div class="zablawy text-center">
+          <h2 class="mt-1 fs-1">Health information</h2>
+          <p class="mt-1 fs-4">the perfect mind in healthy body</p>
+          <button class="btn btn-outline-success nav-button mb-4" type="submit">Search</button>
+        </div> <!-- /zablawy -->
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <section class="container-fluid section-2 p-4">
+    <h2 class="fs-2 fw-bold">WELCOME</h2>
+    <p class="mt-4 fs-3 ">We work to provide service continuously 24/7, provide all the products required in the market, and create a new group of products that will impress you soon.</p>
+    <button type="button" class="btn  text-uppercase">read more</button>
+  </section>      
+  <hr>
+  <section class=" section-3 accordion " id="accordionExample">
+      <div class="section-2-title text-center p-3 rounded-pill">
+      <h2 class="fs-2 fw-bold text-uppercase">Working hours and benefits in every shift</h2>
+      </div>
+      <div class="accordion-item mt-3">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button class="accordion-button collapsed text-capitalize fs-4 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            The first period
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body bg-secondary text-white-50">
+            <strong>During this period, it starts from 0 am to 8 am, and because of this late time, the pharmacy has a paramedic and many things that may help injured people and allow them to reach the nearest specialized health center.</strong>
+          </div>
+        </div>
+      </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed text-capitalize fs-4 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        The Second period
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body bg-secondary text-white-50">
+          <strong>During this period, it starts from 8 a.m. until 4 p.m., and at this time a medical team of pharmacists is available to help if you need any compound medicine or anything else.</strong>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed text-capitalize fs-4 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+           The Third period
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+        <div class="accordion-body bg-secondary text-white-50">
+          <strong>During this period, it starts from 4 pm until 1 am, and this is the ideal time if you want to order anything from the pharmacy, and some minor symptoms can be diagnosed by some specialized doctors who will be available at this time, especially children.</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <section class="section-4">
+    <div class="container-fluid text-center section-4-title p-3 rounded-pill">
+      <h2 class="fs-2 fw-bold">WRITE YOUR OPINION WITH ENGLIHS</h2>
+    </div>
+    <div class="container-fluid section-4-body p-3 ">
+      <span class="text-capitalize h2">Leave your opinion here.</span>
+      <a href="#"><span class="text-capitalize h2 ">Press Here</span></a> <br>
+      <button type="button" class="btn copybtn position-relative ms-3 my-2" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover">
+        Copy
+      </button><br>
+      <textarea class="mt-2 p-2 w-100" rows="7" placeholder="Enter your opinion "></textarea>
+    </div>
+
+    <div class="container-fluid text-center section-4-title p-3 mt-2  rounded-pill">
+      <h2 class="fs-2 fw-bold">WRITE YOUR OPINION WITH Frensh</h2>
+    </div>
+    <div class="container-fluid section-4-body p-3 ">
+      <span class="text-capitalize h2">Leave your opinion here.</span>
+      <a href="#"><span class="text-capitalize h2 ">Press Here</span></a> <br>
+      <button type="button" class="btn copybtn position-relative ms-3 my-2" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover">
+        Copy
+      </button><br>
+      <textarea class="mt-2 p-2 w-100" rows="7" placeholder="Enter your opinion "></textarea>
+    </div>
+
+    <div class="container-fluid text-center section-4-title p-3  mt-2 rounded-pill">
+      <h2 class="fs-2 fw-bold">WRITE YOUR OPINION WITH German</h2>
+    </div>
+    <div class="container-fluid section-4-body p-3 ">
+      <span class="text-capitalize h2">Leave your opinion here.</span>
+      <a href="#"><span class="text-capitalize h2 ">Press Here</span></a> <br>
+      <button type="button" class="btn copybtn position-relative ms-3 my-2" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover">
+        Copy
+      </button><br>
+      <textarea class="mt-2 p-2 w-100" rows="7" placeholder="Enter your opinion "></textarea>
+    </div>
+
+  </section>
+  <hr>
+  <section class="section-5">
+    <div class=""></div>
+  </section>
+  <section class="section-6">
+    <div class="rora rounded-pill">
+    <div class="section-6-header p-3 zz ">
+      <h2 class="text-center fs-2 fw-bold text-capitalize">The most famous medicines</h2>
+    </div>
+   </div>
+  </section>
+  <div class="section-7 container-fluid">
+    <div class="row justify-content-evenly">
+
+      <div class="card koko col-lg-3 col-md-4 col-sm-9 m-2" >
+        <img src="images/11.jpeg" class="card-img-top" alt="...">
+        <div class="card-body row">
+          <span class="h5 text-center">Allergy medicine</span>
+          <button type="button" class="btn btn-primary ">Buy</button>
+          <p class="card-text">This medicine is anti-allergic to most types of allergies and is 90% effective.</p>
+        </div>
+      </div>
+
+      <div class="card koko  col-lg-3 col-md-4 col-sm-9 m-2" >
+        <img src="images/12.jpeg" class="card-img-top" alt="...">
+        <div class="card-body row">
+          <span class="h5 text-center">Rivet is a headache</span>
+          <button type="button" class="btn btn-primary ">Buy</button>
+          <p class="card-text">This rivet helps reduce the severity of the collision significantly </p>
+        </div>
+      </div>
+
+      <div class="card koko col-lg-3 col-md-4 col-sm-9 m-2" >
+        <img src="images/13.jpeg" class="card-img-top" alt="...">
+        <div class="card-body row">
+          <span class="h5 text-center">Constipation formula</span>
+          <button type="button" class="btn btn-primary ">Buy</button>
+          <p class="card-text">This formula solves all constipation problems without side effects </p>
+        </div>
+      </div>
+
+      <div class="card koko col-lg-3 col-md-4 col-sm-9 m-2" >
+        <img src="images/14.jpeg" class="card-img-top" alt="...">
+        <div class="card-body row">
+          <span class="h5 text-center">Poetry collection</span>
+          <button type="button" class="btn btn-primary ">Buy</button>
+          <p class="card-text">This group is carefully selected to treat most hair problems </p>
+        </div>
+      </div>
+
+       <div class="card koko col-lg-3 col-md-4 col-sm-9 m-2" >
+        <img src="images/15.jpeg" class="card-img-top" alt="...">
+        <div class="card-body row">
+          <span class="h5 text-center">Safety bottle</span>
+          <button type="button" class="btn btn-primary ">Buy</button>
+          <p class="card-text">This bottle is 100% safe and sterile. You can keep anything you want in it, securely </p>
+        </div>
+      </div>
+
+      <div class="card koko col-lg-3 col-md-4 col-sm-9 m-2" >
+        <img src="images/16.jpeg" class="card-img-top" alt="...">
+        <div class="card-body row">
+          <span class="h5 text-center">Muscle extensor</span>
+          <button type="button" class="btn btn-primary ">Buy</button>
+          <p class="card-text">This formula solves all constipation problems without side effects This ointment relaxes stressed and tense muscles</p>
+        </div>
+      </div> 
+
+      <div class="card koko col-lg-3 col-md-4 col-sm-9 m-2" >
+        <img src="images/19.jpeg" class="card-img-top" alt="...">
+        <div class="card-body row">
+          <span class="h5 text-center">Hair oils</span>
+          <button type="button" class="btn btn-primary ">Reservation</button>
+          <p class="card-text">These are rare oils that can only treat hair loss and will be available soon</p>
+        </div>
+      </div> 
+
+      <div class="card koko col-lg-3 col-md-4 col-sm-9 m-2" >
+        <img src="images/18.jpeg" class="card-img-top" alt="...">
+        <div class="card-body row">
+          <span class="h5 text-center">Choking medication</span>
+          <button type="button" class="btn btn-primary ">Reservation</button>
+          <p class="card-text">This medicine solves choking and respiratory problems and will be available soon</p>
+        </div>
+      </div> 
+
+
+    </div>
+  </div> <!-- /section-7 -->
+  <hr>
+  <section class="section-5 koka">
+    <div class=""></div>
+  </section>
+  <section class="section-6 section-8">
+    <div class="rora rounded-pill">
+    <div class="section-6-header p-3 zz">
+      <h2 class="text-center fs-2 fw-bold text-capitalize">The most famous medicines</h2>
+    </div>
+   </div>
+
+   <div class="d-flex flex-wrap justify-content-center mx-0">
+
+    <div class="card col-lg-3 col-md-4 col-sm-9 m-2 section-8-card section-8-bg1 p-2" >
+      <div class="card-body">
+        <h2 class="fw-bold text-uppercase section-8-h2">Dr. Alia</h2>
+        <i class="fa-regular fa-clock"></i>
+        <span class="section-8-span">Every day . 1:00 AM - 8:00 AM</span>
+      </div>
+      <div class="card-footer row">
+        <div class="section-8-img">
+          <img src="images/22.jpeg" alt="">
+        </div> <!-- /section-8-img -->
+        <p class="text-capitalize h3 ">Dr. Alia</p>
+        <span>First aid specialist</span>
+      </div>
+    </div>
+
+    <div class="card col-lg-3 col-md-4 col-sm-9 m-2 section-8-card p-2" >
+      <div class="card-body">
+        <h2 class="fw-bold text-uppercase section-8-h2">Dr. Ahmed</h2>
+        <i class="fa-regular fa-clock"></i>
+        <span class="section-8-span">Every day . 8:00 AM - 4:00 PM</span>
+      </div>
+      <div class="card-footer row">
+        <div class="section-8-img">
+          <img src="images/23.jpeg" alt="">
+        </div> <!-- /section-8-img -->
+        <p class="text-capitalize h3">Dr. Ahmed</p>
+        <span>specialist in internal medicine</span>
+      </div>
+    </div>
+
+    <div class="card col-lg-3 col-md-4 col-sm-9 m-2 section-8-card section-8-bg2 p-2" >
+      <div class="card-body">
+        <h2 class="fw-bold text-uppercase section-8-h2">Dr. Asmaa</h2>
+        <i class="fa-regular fa-clock"></i>
+        <span class="section-8-span">Every day . 4:00 PM - 1:00 AM</span>
+      </div>
+      <div class="card-footer row">
+        <div class="section-8-img">
+          <img src="images/24.jpeg" alt="">
+        </div> <!-- /section-8-img -->
+        <p class="text-capitalize h3">Dr. Asmaa</p>
+        <span>Pediatric specialist</span>
+      </div>
+    </div>
+
+   </div>
+
+  </section>
+  <hr>
+  <section class="section-6 section-9 ">
+    <div class="rora rounded-pill">
+    <div class="section-6-header p-3 zz">
+      <h2 class="text-center fs-2 fw-bold text-capitalize">International pharmaceutical news</h2>
+    </div>
+   </div> 
+   <div class="row justify-content-center p-4 w-100">
+
+    <div class="card mb-3 col-10 section-9-card" >
+      <div class="row  ">
+
+        <div class="col-md-8  col-sm-12 row  align-items-center p-5 section-9-card-word ">
+          <div class="card-body zsad">
+            <h3 class="card-title text-capitalize fw-bold">Skin cancer treatment</h3>
+            <div class="section-9-card-i fs-5">
+              <i class="fas fa-calendar-alt mr-2"></i>
+              <span class=""> Aug 2th 2030</span>
+              <p class="rounded-pill"></p>
+            </div> <!-- /section-9-card-i -->
+            <p class="card-text">International companies are working to produce a good, proven drug with few side effects to solve and neutralize skin cancer problems, and this will be in the year 2030.</p>
+            <div class="section-9-card-button ">
+              <p class="">
+                <i class="fa-solid fa-tower-broadcast"></i>
+                <span>Maybe</span>
+              </p>
+              <p class="">
+                <i class="fa-regular fa-clock"></i>
+                <span>2:00 PM</span>
+              </p>
+              <p class="deff1">
+                <i class="fa-solid fa-circle-question"></i>
+                <span>More information</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 section-9-img col-sm-12">
+          <img src="images/26.jpeg" class="img-fluid rounded-end" alt="...">
+        </div>
+      </div>
+    </div> <!-- /section-9-card -->
+
+    <div class="card mb-3 col-10 section-9-card section-9-card-2" >
+      <div class="row  ">
+
+        <div class="col-md-8  col-sm-12 row  align-items-center p-5 section-9-card-word ">
+          <div class="card-body zsad">
+            <h3 class="card-title text-capitalize fw-bold">Alzheimer disease</h3>
+            <div class="section-9-card-i fs-5">
+              <i class="fas fa-calendar-alt mr-2"></i>
+              <span class=""> Aug 12th 2035</span>
+              <p class="rounded-pill"></p>
+            </div> <!-- /section-9-card-i -->
+            <p class="card-text">Most likely, a treatment for Alzheimer's will be produced, but it may have side effects in the long term, which will occur at the end of 2035.<p>
+            <div class="section-9-card-button ">
+              <p class="">
+                <i class="fa-solid fa-tower-broadcast"></i>
+                <span>Maybe</span>
+              </p>
+              <p class="">
+                <i class="fa-regular fa-clock"></i>
+                <span>7:00 PM</span>
+              </p>
+              <p class="deff1">
+                <i class="fa-solid fa-circle-question"></i>
+                <span>More information</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 section-9-img col-sm-12">
+          <img src="images/30.jpeg" class="img-fluid rounded-end" alt="...">
+        </div>
+      </div>
+    </div> <!-- /section-9-card -->
+    <div class="card mb-3 col-10 section-9-card" >
+      <div class="row  ">
+
+        <div class="col-md-8  col-sm-12 row  align-items-center p-5 section-9-card-word ">
+          <div class="card-body zsad">
+            <h3 class="card-title text-capitalize fw-bold">Corona sixth generation</h3>
+            <div class="section-9-card-i fs-5">
+              <i class="fas fa-calendar-alt mr-2"></i>
+              <span class=""> May 2th 2025</span>
+              <p class="rounded-pill"></p>
+            </div> <!-- /section-9-card-i -->
+            <p class="card-text">I will soon have a vaccine and medicine for the Corona virus, and there will be campaigns to eliminate this disease completely</p>
+            <div class="section-9-card-button ">
+              <p class="">
+                <i class="fa-solid fa-tower-broadcast"></i>
+                <span>Maybe</span>
+              </p>
+              <p class="">
+                <i class="fa-regular fa-clock"></i>
+                <span>5:00 AM</span>
+              </p>
+              <p class="deff1">
+                <i class="fa-solid fa-circle-question"></i>
+                <span>More information</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 section-9-img col-sm-12">
+          <img src="images/33.jpeg" class="img-fluid rounded-end" alt="...">
+        </div>
+      </div>
+    </div> <!-- /section-9-card -->
+
+    <div class="card mb-3 col-10 section-9-card section-9-card-2" >
+      <div class="row  ">
+
+        <div class="col-md-8  col-sm-12 row  align-items-center p-5 section-9-card-word ">
+          <div class="card-body zsad">
+            <h3 class="card-title text-capitalize fw-bold">Arthritis</h3>
+            <div class="section-9-card-i fs-5">
+              <i class="fas fa-calendar-alt mr-2"></i>
+              <span class=""> Oct 28th 2029</span>
+              <p class="rounded-pill"></p>
+            </div> <!-- /section-9-card-i -->
+            <p class="card-text">Arthritis. Some investors want a strong treatment or painkiller for this disease. It is likely to be available on the market in 2029, and we are not working on any further details.<p>
+            <div class="section-9-card-button ">
+              <p class="">
+                <i class="fa-solid fa-tower-broadcast"></i>
+                <span>Maybe</span>
+              </p>
+              <p class="">
+                <i class="fa-regular fa-clock"></i>
+                <span>4:00 PM</span>
+              </p>
+              <p class="deff1">
+                <i class="fa-solid fa-circle-question"></i>
+                <span>More information</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 section-9-img col-sm-12">
+          <img src="images/34.jpeg" class="img-fluid rounded-end" alt="...">
+        </div>
+      </div>
+    </div> <!-- /section-9-card -->
+
+   </div>
+
+  </section><!-- /section-9-->
+  <section class="section-6 section-10">
+    <div class="rora rounded-pill">
+        <div class="section-6-header p-3 zz">
+          <h2 class="text-center fs-2 fw-bold text-capitalize">JOIN US</h2>
+        </div>
+    </div> 
+
+    <div class="row justify-content-center w-100">
+
+        <div class="card m-3 bg-light section-10-card" >
+          <div class="card-body text-info d-flex flex-column text-center">
+            <h3 class="card-title mb-4 section-10-card-title">Subscribe Now</h3>
+            <div class="section-10-img ">
+            <input class="logoicon mb-2 rounded-4" style="align-self: center; " src="images/43.jpeg" type="image" alt="icon" fdprocessedid="qj0j7">
+            </div>
+            <a href="#" target="_blank" class="card-link h4 text-info  ">Go to link</a>
+          </div>
+        </div>
+        <div class="card m-3 bg-light section-10-card" >
+          <div class="card-body text-info d-flex flex-column text-center">
+            <h3 class="card-title mb-4 section-10-card-title">Subscribe Now</h3>
+            <div class="section-10-img ">
+            <input class="logoicon mb-2 rounded-4" style="align-self: center; " src="images/37.jpeg" type="image" alt="icon" fdprocessedid="qj0j7">
+            </div>
+            <a href="#" target="_blank" class="card-link h4 text-info  ">Go to link</a>
+          </div>
+        </div>
+        <div class="card m-3 bg-light section-10-card" >
+          <div class="card-body text-info d-flex flex-column text-center">
+            <h3 class="card-title mb-4 section-10-card-title">Subscribe Now</h3>
+            <div class="section-10-img ">
+            <input class="logoicon mb-2 rounded-4" style="align-self: center; " src="images/41.jpeg" type="image" alt="icon" fdprocessedid="qj0j7">
+            </div>
+            <a href="#" target="_blank" class="card-link h4 text-info  ">Go to link</a>
+          </div>
+        </div>
+        <div class="card m-3 bg-light section-10-card" >
+          <div class="card-body text-info d-flex flex-column text-center">
+            <h3 class="card-title mb-4 section-10-card-title">Subscribe Now</h3>
+            <div class="section-10-img ">
+            <input class="logoicon mb-2 rounded-4" style="align-self: center; " src="images/48.jpeg" type="image" alt="icon" fdprocessedid="qj0j7">
+            </div>
+            <a href="#" target="_blank" class="card-link h4 text-info  ">Go to link</a>
+          </div>
+        </div>
+
+        
+      </div>
+  </section> <!-- /section-10 -->
+  <hr>
+  <section class="section-11 footer">
+    <div class="container-fluid  d-flex justify-content-evenly flex-wrap">
+
+      <div class="col-md-3 col-sm-5 text-center section-11-card">
+        <hr class="rounded-pill">
+        <h5><img src="images/1.1.png" alt="good pic" class="">&nbsp; Good Company</h5>
+        <hr class="rounded-pill">
+        <address>
+          <p>Tel : 000-000-000</p>
+          <p>Address : EGYPT</p>
+          <p>Fax : 000-000-000</p>
+        </address>
+      </div>
+
+      <div class="col-md-3 col-sm-5 text-center section-11-card">
+        <hr class="rounded-pill">
+        <h5><img src="images/1.1.png" alt="good pic" class="">&nbsp; Important links</h5>
+        <hr class="rounded-pill">
+        <address>
+          <p>Visit Us</p>
+          <p>Take alook</p>
+          <p>Your health is more important</p>
+        </address>
+      </div>
+
+      <div class="col-md-3 col-sm-5 text-center section-11-card">
+        <hr class="rounded-pill">
+        <h5><img src="images/1.1.png" alt="good pic" class="">&nbsp; Future vision</h5>
+        <hr class="rounded-pill">
+        <address>
+          <p>Serveices for all</p>
+          <p>Provide best serveices</p>
+          <p>you will be better than before</p>
+        </address>
+      </div>
+    </div>
+  </section> <!-- /section-11 -->
+
+  <footer class="mb-5">
+    <hr>
+    <p class="text-uppercase fw-bold fs-4 text-center  rounded-pill bg-secondary px-4">COPYRIGHT © 2030 MOHAMED AHMED SHIHATA, Good pharmacy all rights reserved. </p>
+    <hr>
+  </footer>
+  
+
+ <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
